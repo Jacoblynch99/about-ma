@@ -1,0 +1,52 @@
+.background-whole {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Work Sans', sans-serif;
+
+}
+  
+.display {
+  display: grid;
+}
+
+.container {
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto;
+  grid-template-areas: 
+  'pic'
+  'Interesting'
+  'Listening'
+  'Go';
+}
+
+.pic {
+  grid-area: pic;
+}
+
+.text-1 {
+  grid-area: Interesting;
+}
+
+.text-2 {
+  grid-area: Listening;
+}
+
+.text-3 {
+  grid-area: Go;
+}
+
+.bold-font {
+  font-weight: 600;
+  text-align: center;
+}
+
+.centered {
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+
+  

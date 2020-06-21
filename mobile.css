@@ -1,0 +1,16 @@
+.container {
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+}
+
+.bold-font {
+    font-size: 35px;
+}
+
+.normal-font {
+    font-size: 20px;
+}
+
+.centered {
+    margin-right: 10%;
+    margin-left: 10%;
+}
